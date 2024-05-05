@@ -11,7 +11,7 @@ import { Separator } from "@/components/ui/separator";
 const Collections = () => {
   const router = useRouter();
 
-  const [oading, setLoading] = useState(true);
+  const [Loading, setLoading] = useState(true);
   const [collections, setCollections] = useState([]);
 
   const getCollections = async () => {
